@@ -60,11 +60,9 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      EMAIL_LIST: scontato76@gmail.com
+      EMAIL_LIST: dimeleone@gmail.com
 
     steps:
     - name: Email Notification
       uses: actions/checkout@v3
     - run: sh scripts/sendNotification.sh
-
-
