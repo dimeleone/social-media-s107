@@ -1,2 +1,3 @@
 sudo apt-get install mailutils
-mail -s "a subject" ${EMAIL_LIST}
+echo "Enviando notificação para ${EMAIL_LIST}"
+echo ""Pipeline executado!" | mail -s "a subject" ${EMAIL_LIST}
