@@ -60,7 +60,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      EMAIL_LIST: ${{ secrets.EMAIL_LIST }}
+      EMAIL_LIST: scontato76@gmail.com
 
     steps:
     - name: Email Notification
